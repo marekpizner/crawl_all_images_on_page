@@ -2,3 +2,5 @@ env/**
 *.csv
 *.zip
 .DS_Store
+*.jpg
+**.pyc

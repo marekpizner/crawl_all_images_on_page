@@ -13,5 +13,5 @@ class PicturesParserItem(scrapy.Item):
     page_content = scrapy.Field()
     page_content_block = scrapy.Field()
 
-    image_url = scrapy.Field()
-    image = scrapy.Field()
+    image_urls = scrapy.Field()
+    images = scrapy.Field()

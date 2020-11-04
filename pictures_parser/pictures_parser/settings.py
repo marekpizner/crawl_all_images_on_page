@@ -16,8 +16,8 @@ NEWSPIDER_MODULE = 'pictures_parser.spiders'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'pictures_parser (+http://www.yourdomain.com)'
 
-ITEM_PIPELINES = {'pictures_parser.pipelines.PicturesParserPipeline': 1}
-IMAGES_STORE = '../images'
+ITEM_PIPELINES = {'scrapy.pipelines.images.ImagesPipeline': 1}
+IMAGES_STORE = 'images'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
